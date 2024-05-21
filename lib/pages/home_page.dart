@@ -10,19 +10,18 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-// cor azul: #3C5AA6
   @override
   Widget build(BuildContext context) {
     var controller = TextEditingController();
     return Scaffold(
-      backgroundColor: Colors.blue,
+      backgroundColor: const Color.fromARGB(255, 60, 90, 166),
       appBar: AppBar(
-        backgroundColor: Colors.blue,
+        backgroundColor: const Color.fromARGB(255, 60, 90, 166),
         centerTitle: true,
         title: const Text(
           'Home Page',
           style: TextStyle(
-            color: Colors.yellow,
+            color: Color.fromARGB(255, 255, 203, 5),
             fontSize: 30,
             fontWeight: FontWeight.bold,
           ),
@@ -42,7 +41,7 @@ class _HomePageState extends State<HomePage> {
                   filled: true,
                   enabledBorder: OutlineInputBorder(
                     borderSide: BorderSide(
-                      color: Colors.yellow,
+                      color: Color.fromARGB(255, 255, 203, 5),
                       width: 3,
                     ),
                     borderRadius: BorderRadius.all(
@@ -51,7 +50,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                   focusedBorder: OutlineInputBorder(
                     borderSide: BorderSide(
-                      color: Colors.yellow,
+                      color: Color.fromARGB(255, 255, 203, 5),
                       width: 3,
                     ),
                     borderRadius: BorderRadius.all(
@@ -60,7 +59,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                   border: OutlineInputBorder(
                     borderSide: BorderSide(
-                      color: Colors.yellow,
+                      color: Color.fromARGB(255, 255, 203, 5),
                       width: 3,
                     ),
                     borderRadius: BorderRadius.all(
@@ -95,7 +94,7 @@ class _HomePageState extends State<HomePage> {
                 style: ElevatedButton.styleFrom(
                   padding:
                       const EdgeInsets.symmetric(horizontal: 36, vertical: 16),
-                  backgroundColor: Colors.yellow,
+                  backgroundColor: const Color.fromARGB(255, 255, 203, 5),
                 ),
                 child: const Text(
                   'Pesquisar',

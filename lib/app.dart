@@ -12,7 +12,7 @@ class App extends StatelessWidget {
       theme: ThemeData(
         textTheme: const TextTheme(
           titleLarge: TextStyle(
-            color: Colors.yellow,
+            color: Color.fromARGB(255, 255, 203, 5),
             fontSize: 36,
             fontWeight: FontWeight.bold,
           ),

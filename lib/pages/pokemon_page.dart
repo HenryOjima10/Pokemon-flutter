@@ -23,7 +23,7 @@ class PokemonPage extends StatelessWidget {
         title: const Text(
           'Pokemon Page',
           style: TextStyle(
-            color: Colors.yellow,
+            color: Color.fromARGB(255, 255, 203, 5),
             fontSize: 30,
             fontWeight: FontWeight.bold,
           ),
@@ -31,12 +31,14 @@ class PokemonPage extends StatelessWidget {
       ),
       body: Center(
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.network(imageUrl),
             Text(
               'Name: $name',
               style: const TextStyle(
-                color: Colors.yellow,
+                color: Color.fromARGB(255, 255, 203, 5),
                 fontSize: 20,
                 fontWeight: FontWeight.bold,
               ),
@@ -44,7 +46,7 @@ class PokemonPage extends StatelessWidget {
             Text(
               'ID: $id',
               style: const TextStyle(
-                color: Colors.yellow,
+                color: Color.fromARGB(255, 255, 203, 5),
                 fontSize: 20,
                 fontWeight: FontWeight.bold,
               ),
@@ -52,7 +54,7 @@ class PokemonPage extends StatelessWidget {
             Text(
               'Type: $type',
               style: const TextStyle(
-                color: Colors.yellow,
+                color: Color.fromARGB(255, 255, 203, 5),
                 fontSize: 20,
                 fontWeight: FontWeight.bold,
               ),
